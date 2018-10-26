@@ -56,7 +56,7 @@ You can use `MATH` query to do mathematical operation between previously defined
 * `MATH` will clear returned values from query results used for mathematical operation. Use `keep` attribute to keep source data.
 * Use `singlestat` attribute if you want to use `MATH` in Singlestat panels.
 
-![Example of MATH query](math_singlestat.png)
+![Example of MATH query](math_singlestat_5.3.png)
 
 ## Example requests
 
