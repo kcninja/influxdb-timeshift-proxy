@@ -196,7 +196,7 @@ function intercept(rsp, data, req, res) {
                             const idx = parseInt(item.substr(1), 10);
                             if (math.keep.indexOf(idx) === -1) {
                                 if (math.singlestat) {
-                                    json.results[idx] = {};
+                                    json.results.shift();
                                 } else {
                                     json.results[idx].series[0].values = [];
                                 }
